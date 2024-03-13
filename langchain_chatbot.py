@@ -6,7 +6,7 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 
-APIKEY = "sk-drbU3fPxBt2Wj5KIJcT3BlbkFJQ1REKl2qHQCPELPZc753"
+APIKEY = "YOUR-OPENAI-API"
 os.environ['OPENAI_API_KEY'] = APIKEY
 
 query = input('enter your question: ')
